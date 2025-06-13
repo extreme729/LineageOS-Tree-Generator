@@ -4,27 +4,27 @@ on:
   workflow_dispatch:
     inputs:
       DUMP_URL:
-        description: 'Dump link'
+        description: 'https://dumps.tadiphone.dev/dumps/lenovo/akita_row_wifi'
         required: true
         default: ''
       DUMP_BRANCH:
-        description: 'Dump branch'
+        description: 'full_akita_row_wifi-user-10-QP1A.190711.020-TB-8505F_U-release-keys'
         required: true
         default: ''
       DEVICE_BRAND:
-        description: 'Device manufacturer'
+        description: 'lenovo'
         required: true
         default: ''
       CODENAME:
-        description: 'Device codename'
+        description: 'tb8505f'
         required: true
         default: ''
       GIT_NAME:
-        description: 'GitHub account user name'
+        description: 'extreme729'
         required: true
         default: ''
       GIT_EMAIL:
-        description: 'GitHub account email adress'
+        description: 'shinema3743@gmail.com'
         required: true
         default: ''
 
